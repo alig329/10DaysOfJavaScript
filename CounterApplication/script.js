@@ -13,5 +13,6 @@ btns.forEach(function (btn) {
       count++;
     }
     value.textContent = count;
+    value.style.color = count > 0 ? "green" : count < 0 ? "red" : "black";
     });
 });
